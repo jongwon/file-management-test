@@ -38,6 +38,8 @@ subprojects {
 
     dependencies {
 
+        implementation 'org.slf4j:slf4j-api'
+
         compileOnly lombok
         annotationProcessor lombok
 
@@ -55,4 +57,3 @@ rootProject.subprojects {
         it.tasks["bootJar"].enabled = false
     }
 }
-

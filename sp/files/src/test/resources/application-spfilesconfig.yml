@@ -1,0 +1,4 @@
+
+sp:
+  file:
+    root: ${user.home}/dev/test2
